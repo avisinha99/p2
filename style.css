@@ -257,7 +257,7 @@ section .title::after{
   
   margin-bottom: 5%;
 }
-.about-button{
+.about .about-button{
   
   display: flex;
   background-color:crimson; 
@@ -272,29 +272,29 @@ section .title::after{
   border-radius: 12px;
   transition-duration: 0.4s;
 }
- .about-button:hover{
+ .about .about-button:hover{
   color:crimson;
   background: #fff;
   border: 2px solid crimson;
 
 }
-.button-div{
+.about .button-div{
   display: flex;
   justify-content: center;
   align-items: center;
   
   
 }
-.About u{
+.about .About u{
   text-decoration-color: blue;
 }
-.About{
+.about .About{
   text-align: center;
   padding-top: 10%;
   font-size: 40px;
 
 }
- .para-about{
+ .about .para-about{
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
@@ -387,3 +387,4 @@ section .title::after{
     order: 3;
   }
 }
+
